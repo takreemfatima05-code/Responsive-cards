@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(153, 121, 182);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  
+}
+
+.cards{
+    height: 480px;
+    width: 350px;
+    background-color:whitesmoke;
+     border-radius: 15px;
+}
+.cards:hover{
+    box-shadow: 20px 20px 20px 20px rgb(93, 60, 116);
+   margin-top:-5px;
+    cursor: pointer;
+    height: 480px;
+    width: 350px;
+    background-color:whitesmoke;
+     border-radius: 15px;
+}
+.img01{
+    background-image: url(image\ 1.jpg);
+    width: 340px;
+    height: 220px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+   
+}
+.img02{
+    background-image: url(image\ 2.jpg);
+    width: 340px;
+    height: 220px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.img03{
+    background-image: url(image\ 3.jpg);
+    width: 340px;
+    height: 220px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ h5{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+ }
+ p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    opacity: 60%;
+ }
+ .hr{
+   opacity: 60%;
+   text-shadow: 10px 10px gray;
+    
+ }
+ .user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+ }
+ .bottom{
+    display: flex;
+
+ }
+ h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+  margin-top: -1px;
+  margin-top: 5px;
+ }
+ .specalist{
+   margin-left: 11px;
+    margin-top: -17px;
+ }
+ .read{
+    margin-left: 40px;
+   background-color: rgb(107, 84, 128);
+    color: white;
+    margin-top: 10px;
+    border: 7px solid  rgb(112, 84, 138);
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+ }
+ .read:hover{
+    margin-left: 40px;
+   background-color:white;
+    color: rgb(112, 84, 138) ;
+    margin-top: 10px;
+    border: 3px solid  rgb(112, 84, 138);
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+ }
+ 
+  .design{
+    background-color:azure;
+    opacity: 80%;
+    color:rgb(112, 84, 138) ;
+    width: 90px;
+    height: 25px;
+    border: solid azure;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.development{
+    background-color:azure;
+    opacity: 80%;
+    color:rgb(112, 84, 138) ;
+    width: 130px;
+    height: 30px;
+    border: solid azure;
+    text-align: center;
+    
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ .animation{
+background-color:azure;
+    opacity: 80%;
+    color:rgb(112, 84, 138) ;
+    width: 110px;
+    height: 30px;
+    border: solid azure;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ 
